@@ -1,0 +1,17 @@
+{
+  "name": "onlineshopping_evershop-bytelogik",
+  "version": "1.0.0",
+  "description": "it is a online shopping website using a evershop and postgresql for a technical assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start"
+  },
+  "author": "sharath",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.2.2"
+  }
+}
